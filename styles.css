@@ -30,6 +30,7 @@ body {
 
 .illustration {
     margin: 40px 0;
+    flex-shrink: 0;
 }
 
 h1 {
@@ -87,7 +88,7 @@ button:hover {
     background-color: #fc51c4;
 }
 
-@media (max-width: 1099px) {
+@media (max-width: 1129px) {
     body {
         background: url("images/bg-mobile.svg") top no-repeat;
         background-color: #674bb1;
@@ -95,7 +96,7 @@ button:hover {
     }
 }
 
-@media (min-width: 1100px) and (max-width: 1423px) {
+@media (min-width: 1130px) and (max-width: 1423px) {
     body {
         background: url("images/bg-desktop.svg") top no-repeat;
         background-color: #674bb1;
